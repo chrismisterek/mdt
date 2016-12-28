@@ -45,6 +45,63 @@ Template: bridge
 
 }
 
+/*CTA Styles*/
+.cta-left {
+  margin: 10px 0;
+}
+
+.cta1 p {
+  color: white;
+  font-size: 24px;
+  display: inline;
+  padding-right: 10px;
+  text-transform: uppercase;
+}
+
+.cta-right {
+  text-align: right;
+}
+
+a.qode-btn.qode-btn-medium.qode-btn-solid.qode-btn-icon.qode-btn-3d-hover {
+  border-radius: 0 !important;
+}
+
+
+.qode-btn.qode-btn-icon {
+  height: 50px;
+}
+
+.qode-btn.qode-btn-icon.qode-btn-solid {
+  line-height: 50px;
+}
+
+.qode-btn-text {
+  font-size: 16px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+  color: #b01534;
+}
+
+i.qode_icon_font_awesome.fa.fa-chevron-right.qode-button-v2-icon-holder-inner {
+  font-size: 14px;
+  position: relative;
+  top: -4px;
+  color: #b01534;
+  text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
+}
+
+@media only screen and (max-width: 700px) {
+
+  .cta-left {
+    text-align: center !important;
+  }
+
+  .cta-right {
+      text-align: center !important;
+  }
+
+}
+
 /*=====2. Header Styles=====*/
 
 /*Top Banner*/
@@ -391,50 +448,6 @@ span.progress_title {
     background-attachment: fixed;
   }
 
-}
-
-.cta-left {
-  margin: 10px 0;
-}
-
-.cta1 p {
-  color: white;
-  font-size: 24px;
-  display: inline;
-  padding-right: 10px;
-  text-transform: uppercase;
-}
-
-.cta-right {
-  text-align: right;
-}
-
-a.qode-btn.qode-btn-medium.qode-btn-solid.qode-btn-icon.qode-btn-3d-hover {
-  border-radius: 0 !important;
-}
-
-
-.qode-btn.qode-btn-icon {
-  height: 50px;
-}
-
-.qode-btn.qode-btn-icon.qode-btn-solid {
-  line-height: 50px;
-}
-
-.qode-btn-text {
-  font-size: 16px;
-  text-transform: uppercase;
-  text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
-  color: #b01534;
-}
-
-i.qode_icon_font_awesome.fa.fa-chevron-right.qode-button-v2-icon-holder-inner {
-  font-size: 14px;
-  position: relative;
-  top: -4px;
-  color: #b01534;
-  text-shadow: 2px 2px 10px rgba(0,0,0,0.3);
 }
 
 /*=====END 5. About Us Styles=====*/
